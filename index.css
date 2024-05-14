@@ -1,0 +1,85 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(242, 239, 239);
+    margin: 0;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherform{
+    margin: 20px;
+}
+.cityinput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid #000000eb;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    color: rgb(15, 16, 16);
+}
+
+button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: hsl(181, 54%, 48%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(181, 55%, 42%);
+}
+
+.card{
+    background: linear-gradient(0deg, hsl(181, 70%, 45%) 0%, rgba(98,192,48,1) 50%, rgba(253,187,45,1) 100%);
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.citydisplay, .tempdisplay{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.humdisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.descdisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}   
+
+.weatherdisplay{
+    margin: 0;
+    font-size: 6rem;
+}
+
+.errordisplay{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.786);
+}
